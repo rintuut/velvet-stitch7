@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "The Velvet Stitch7",
   description: "Premium fashion essentials — stitched with style.",
+  verification: {
+    google: "tXBPKKgGlbatlXFDWEpziR35qYUrIxArdd5z7-62mU4",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
